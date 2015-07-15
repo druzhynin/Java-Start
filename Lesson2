@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.print("Give me the first integer: ");
+            int x = scanner.nextInt();
+            System.out.println("The first integer is: " + x);
+
+            System.out.print("Give me the second integer: ");
+            int y = scanner.nextInt();
+            System.out.println("The second integer is: " + y);
+
+            int sum = x + y;
+            int subtraction = x - y;
+            int division = x / y;
+            int multiplication = x * y;
+
+            System.out.println("x + y = " + sum);
+            System.out.println("x - y = " + subtraction);
+            System.out.println("x / y = " + division);
+            System.out.println("x * y = " + multiplication);
+        }
+}
